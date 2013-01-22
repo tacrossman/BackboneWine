@@ -13,6 +13,7 @@ window.store = {
             country: "France",
             region: "Southern Rhone",
             description: "The aromas of fruit and spice give one a hint of the light drinkability of this lovely wine, which makes an excellent complement to fish dishes.",
+            purchasedfrom: "Majestic",
             picture: "saint_cosme.jpg"
         };
         this.wines[2] = {
