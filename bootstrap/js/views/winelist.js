@@ -7,8 +7,8 @@ window.WineListView = Backbone.View.extend({
     render: function () {
         var wines = this.model.models;
         var len = wines.length;
-        var startPos = (this.options.page - 1) * 8;
-        var endPos = Math.min(startPos + 8, len);
+        var startPos = (this.options.page - 1) * 4;
+        var endPos = Math.min(startPos + 4, len);
 
         $(this.el).html('<ul class="thumbnails"></ul>');
 
